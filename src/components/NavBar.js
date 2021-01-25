@@ -5,7 +5,7 @@ class NavBar extends React.Component {
 		return (
 			<header className="wrapper">
 
-				<h1>Urban Revolution Group</h1>
+				<h1>Urban Revolution Group DEV</h1>
 {/*				<nav>
 					<ul>
 					<li><a href="#services">Services</a></li>
