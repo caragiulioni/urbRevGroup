@@ -5,6 +5,10 @@ class ContactForm extends React.Component {
 	render () {
 		return (
 			<div className="contact" id="contact">
+
+				{/* Hey Dont forget about the addtional form data added to the HEAD 
+				https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/
+				*/}
 				<div className="wrapper contactForm">
 					<div className="contactHeading"><h2>CONTACT</h2></div>
 					<form name="contactForm" method="POST" data-netlify="true">
