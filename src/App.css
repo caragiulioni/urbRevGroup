@@ -44,7 +44,7 @@ a{
 
 .section:nth-child(1) .text p{
   background: #8Cb15B;
-  color: white
+  color: white;
 }
 
 
@@ -85,7 +85,7 @@ a{
 /*BIO*/
 .bio{
   color: grey;
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 .emily{
   display: flex;
@@ -228,6 +228,11 @@ header{
 
 h1{
   font-size: 1.5em;
+  margin: 5px 0px;
+}
+
+header li{
+  margin: 5px 0px;
 }
   
 }
