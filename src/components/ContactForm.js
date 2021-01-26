@@ -8,6 +8,7 @@ class ContactForm extends React.Component {
 				<div className="wrapper contactForm">
 					<div className="contactHeading"><h2>CONTACT</h2></div>
 					<form name="contact" method="POST" data-netlify="true">
+					<input type="hidden" name="contact" value="contact" />
 						<div className="formInput">
 							<label htmlFor="name">Your Name:</label>   
 							<input type="text" id="name" name="name" required/>
@@ -23,7 +24,6 @@ class ContactForm extends React.Component {
 						<div className="formInput button">
 							<button type="submit">Send</button>
 						</div>
-						<input type="hidden" name="form-name" value="contact" />
 					</form>
 					<div className="linkedIn">
 						<a href="https://www.linkedin.com/public-profile/in/emilymyates"> <div className="linkedInIcon" aria-hidden="true" ><FaLinkedin alt="Add Emily on LinkedIn"/></div></a>
