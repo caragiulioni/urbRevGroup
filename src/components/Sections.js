@@ -9,7 +9,7 @@ class Sections extends React.Component {
 			<div className="sections">
 				<div className="mainSections">
 					{data.map(item =>
-						<section className="section" key={item.key}>
+						<section className="section" key={item.id}>
 							<div className="sectionImage"><img src={item.image} alt="alt text" /></div>
 							<div className="text wrapper"><p>{item.text}</p></div>
 						</section>
